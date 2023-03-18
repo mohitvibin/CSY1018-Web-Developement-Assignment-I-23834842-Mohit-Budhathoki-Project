@@ -1,12 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html><head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="stylesheet"  href="CSS/style.css">
+    <link rel="stylesheet"  href="CSS/workexperience.css">
+   
+    </head>
+    <section>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active"><i class="fa fa-home"></i>Home</a>
+  <a href="portfolio.html"><i class="fa fa-user"></i>Portfolio</a>
+    <a href="sitereport.html"><i class="fa fa-list"></i>Site Report</a>
+    <a href="workexperience.html"><i class="fa fa-briefcase"></i>Work Experience</a>
+    <a href="contactus.html"><i class="fa fa-comments"></i>Contact Us</a>
     
-</body>
-</html>
+          
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+            
+          </div>
+        </section>
+    <body>
+    <div class="main-container">
+    <div class="aside">
+    <div class="logo">
+    <a href="#"><span>M-</span>ohit</a>
+    <div class="nav-toggler">
+    <span></span>
+    </div>
+    </div>
+    <ul class="nav">
+    <li><a href="index.html" class="active"><i class="fa fa-home"></i>Home</a></li>
+    <li><a href="portfolio.html"><i class="fa fa-user"></i>Portfolio</a></li>
+    <li><a href="sitereport.html"><i class="fa fa-list"></i>Site Report</a></li>
+    <li><a href="workexperience.html"><i class="fa fa-briefcase"></i>Work Experience</a></li>
+    <li><a href="contactus.html"><i class="fa fa-comments"></i>Contact Us</a></li>
+    <br>
+    <div class="follow">
+           <a href="https://www.facebook.com/alone.mohit.5/" class="fab fa-facebook-f"></a>
+           <a href="#" class= "fab fa-twitter"></a>
+           <a href="https://www.instagram.com/_mohit.vibin/" class="fab fa-instagram"></a>
+           <a href="#" class="fab fa-linkedin"></a>
+       </div>
+   
+    </div>
+    </ul>
+     
+   </div>
+<!-- ===== Work experiences start page===== -->
+<section class="experience section" id="experience">
+    <div class="container padd-15">
+    <div class="row">
+    <div class="section-title padd-15">
+    <h2>Experience</h2>
+    </div>
+    </div>
+     <div class="box-container">
+           <div class="box">
+               <div class="content padd-15">
+                   <span> 2075 - 2076 </span>
+                   <h3>Software</h3>
+                   <p>Learn about many kind of coding like HTML,CSS,Java Script,
+                   MYSQL etc. </p>
+               </div>
+           </div>
+           <div class="box">
+               <div class="content padd-15">
+                   <span> 2018 - 2020 </span>
+                   <h3>Graphic Designing</h3>
+                   <p>Learnt basic Graphic Designing </p>
+               </div>
+           </div>
+           <div class="box">
+            <div class="content padd-15">
+                <span> 2019 - 2020 </span>
+                <h3>Video Editing</h3>
+                <p>Learnt basic Video editing </p>
+            </div>
+        </div>
+        <div class="box">
+          <div class="content padd-15">
+              <span> 2020 - 2022 </span>
+              <h3>Web Designing</h3>
+              <p> Learnt Coding Skills  </p>
+          </div>
+      </div>
+       </div>
+       
+    </div>
+   </section>
+      
+   <script>
+   function myFunction() {
+     var x = document.getElementById("myTopnav");
+     if (x.className === "topnav") {
+       x.className += " responsive";
+     } else {
+       x.className = "topnav";
+     }
+   }
+   </script>
+
+</body></html>
