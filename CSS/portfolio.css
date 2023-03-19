@@ -1,0 +1,202 @@
+.portfolio .row-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap:60px;
+    padding-bottom: 2px;
+}
+.portfolio .about-content
+{
+ flex: 0 0 100%;
+ max-width:100% ;
+}
+.portfolio .about-content .about-text
+{
+ flex: 0 0 100%;
+ max-width: 100%;
+}
+.portfolio .about-content .about-text h3
+{
+ font-size: 24px;
+ margin-bottom: 15px;
+ font-weight: 700;
+ color: var(--text-black-900);
+}
+.portfolio .about-content .about-text h3 span
+{
+ color: var(--skin-color);
+}
+.portfolio .about-content  .about-text p
+{
+ font-size: 16px;
+ line-height: 25px;
+ color: var(--text-black-700);
+}
+.portfolio .about-content .personal-info
+{
+ flex: 0 0 60%;
+ max-width: 60%;
+margin-top: 40px;
+}
+.portfolio .about-content .personal-info .info-item
+{
+flex: 0 0 50%;
+max-width: 50%;
+}
+.portfolio .about-content .personal-info .info-item p{
+ font-weight: 600;
+ padding: 10px 0;
+ font-size: 16px;
+ color: var(--text-black-900);
+ border-bottom: 1px solid var(--bg-black-50);
+}
+.portfolio .about-content .personal-info .info-item p span
+{
+ font-weight: 400;
+ color: var(--text-black-700);
+ margin-left: 4px;
+ display: inline-block;
+}
+.portfolio .about-content .skills
+{
+ flex: 0 0 40%;
+ max-width: 40%;
+ margin-top: 40px;
+}
+.portfolio .about-content .personal-info .buttons
+{
+ margin-top: 30px;
+}
+.portfolio .about-content .personal-info .buttons .btn
+{
+ margin-right: 15px;
+ margin-top: 10px;
+}
+.portfolio .about-content .skills .skill-item
+{
+ flex: 0 0 100%;
+ max-width: 100%;
+}
+.portfolio .about-content .skills .skill-item h5
+{
+ line-height: 40px;
+ font-weight: 600;
+ font-size: 16px;
+ color: var(--text-black-900);
+ text-transform: capitalize;
+}
+.portfolio .about-content .skills .skill-item .progress
+{
+ background-color: var(--bg-black-50);
+ height: 7px;
+ border-radius: 4px;
+ width: 100%;
+ position: relative;
+}
+.about .about-content .skills .skill-item
+{
+ margin-bottom: 25px;
+}
+.portfolio .about-content .skills .skill-item .progress .progress-in
+{
+ position: absolute;
+ left: 0;
+ top: 0;
+ height: 100%;
+ border-radius: 4px;
+ background-color: var(--skin-color);
+}
+.portfolio .about-content .skills .skill-item .skill-percent
+{
+position: absolute;
+right: 0;
+color: var(--text-black-900);
+top: -40px;
+font-weight: 400;
+line-height: 40px;
+}
+.grid{
+    display: grid;
+    grid-gap: 45px;
+    width: 1260px;
+    padding: 100px 20px;
+    align-items: start;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    padding-left: 500px;
+}
+.grid-item{
+    background-color: black;
+    overflow: hidden;
+    box-shadow: 0 200px 200px black;
+    border-radius: 75px;
+    transition: 0.2s;
+    cursor: pointer;
+    width: 400px;
+    height: 580px;
+}
+
+.grid-item:hover{
+    box-shadow: 0 64px 128px black;
+    transform: translate(-0.5%);
+}
+
+.card-img{
+    width: 400px;
+    height: 479px;
+    display: block;
+    object-fit: cover;
+    padding: 0;
+    
+}
+
+.card-content{
+    padding: 30px;
+}
+.card-header{
+    font-weight: 500;
+    color: black;
+    font-size: 30px;
+    margin-left: 65px;
+    margin-bottom: 15px;
+}
+.card-text{
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 20px;
+    color: brown;
+    margin-bottom: 25px;
+}
+.card-btn{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    color: antiquewhite;
+    text-align: center;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    letter-spacing: 1.6px;
+
+}
+.card-btn span{
+    transition: 0.2s;
+    margin-left: 16px;
+}
+
+.card-btn:hover, .card-btn:active{
+    background-color: lightblue;
+}
+
+@media (max-width:1600px){
+    .grid{
+       padding-left: 500px;
+       display: grid;
+    grid-gap: 45px;
+    width: 1260px;
+    padding: 100px 20px;
+    align-items: start;
+    transition: 2s;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    }
+     }
