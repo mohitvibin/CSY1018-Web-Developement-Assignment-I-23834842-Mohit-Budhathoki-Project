@@ -179,9 +179,16 @@ line-height: 40px;
     letter-spacing: 1.6px;
 
 }
+
+.card-img{
+    display: flex;
+    justify-content: center;
+    height: 790px;
+    
+}
 .card-btn span{
     transition: 0.2s;
-    margin-left: 16px;
+    margin-left: 30px;
 }
 
 .card-btn:hover, .card-btn:active{
