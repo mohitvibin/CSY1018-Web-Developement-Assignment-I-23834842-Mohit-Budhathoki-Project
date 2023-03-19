@@ -128,12 +128,12 @@
  white-space: nowrap;
  cursor: pointer;
  border: none;
- background: yellow;
+ background: black;
  transition: all 0.3s ease;
  }
  .btn:hover{
  transform: scale(1.05);
-    background:#561;
+    background:#00FF10;
     letter-spacing: .2rem;
 }
  /* aside */ 
@@ -194,17 +194,16 @@
     top: 0;
 
  }
-.aside .logo a:after
- {
- content: '';
- 
- width: 20px;
- height: 20px;
- border-top: 5px solid var(lightblue);
- border-right: 5px solid var(lightblue);
- top: 0;
- right: 0;
+ .aside .logo a:after {
+   content: '';
+   width: 20px;
+   height: 20px;
+   border-top: 5px solid var(--lightblue);
+   border-right: 5px solid var(--lightblue);
+   top: 0;
+   right: 0;
  }
+ 
 
 .aside .nav
  {
